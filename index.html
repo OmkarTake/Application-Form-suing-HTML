@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+</head>
+
+<body>
+
+    <h1 align="center">Registration Page for Job</h1>
+    <hr>
+
+    <form action="" method="get">
+
+        <table border="1" cellpadding="10" cellspacing="0" align="center">
+
+            <tr>
+                <th colspan="2">Job Registration Form</th>
+            </tr>
+
+            <tr>
+                <td><b>Username</b></td>
+                <td>
+                    <input type="text"
+                           name="username"
+                           placeholder="Enter your username"
+                           required>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Address</b></td>
+                <td>
+                    <textarea name="address"
+                              placeholder="Enter your address"
+                              rows="4"
+                              cols="30"
+                              required></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Gender</b></td>
+                <td>
+                    <input type="radio" name="gender" value="male" required>
+                    Male
+
+                    <input type="radio" name="gender" value="female">
+                    Female
+
+                    <input type="radio" name="gender" value="other">
+                    Other
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Skills</b></td>
+                <td>
+                    <input type="checkbox" name="skills" value="python" checked>
+                    Python
+
+                    <input type="checkbox" name="skills" value="java">
+                    Java
+
+                    <input type="checkbox" name="skills" value="javascript">
+                    JavaScript
+
+                    <input type="checkbox" name="skills" value="cpp">
+                    C++
+                </td>
+            </tr>
+
+            <tr>
+                <td><b>Country</b></td>
+                <td>
+                    <select name="country" required>
+
+                        <option value="" disabled>
+                            Select your country
+                        </option>
+
+                        <option value="india" selected>
+                            India
+                        </option>
+
+                        <option value="usa">
+                            USA
+                        </option>
+
+                        <option value="uk">
+                            UK
+                        </option>
+
+                        <option value="canada">
+                            Canada
+                        </option>
+
+                        <option value="australia">
+                            Australia
+                        </option>
+
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" align="center">
+                    <button type="submit">Submit</button>
+                    &nbsp;
+                    <button type="reset">Reset</button>
+                </td>
+            </tr>
+
+        </table>
+
+    </form>
+
+</body>
+</html>
